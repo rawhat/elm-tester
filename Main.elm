@@ -1,7 +1,12 @@
 module Main exposing (..)
 
-import Html
+import Html exposing (div, h2, button, input, text)
+import Html.Attributes exposing (..)
 
 
 main =
-    Html.text "Hello, world!"
+    div []
+        [ h2 [] [ text "Hello, world!" ]
+        , input [ type' "text", placeholder "Textual healing" ] []
+        , button [] [ text "Clickey" ]
+        ]
