@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './static/js/app.js',
+  entry: './static/js/bundle.js',
   output: {
     path: __dirname + '/static/js',
     filename: 'app.min.js'
