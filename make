@@ -1,2 +1,1 @@
-elm-make ./src/Main.elm --output ./static/js/bundle.js
-webpack --progress --colors
+elm-make ./src/Main.elm --output ./src/bundle.js

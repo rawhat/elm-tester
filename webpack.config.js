@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './static/js/bundle.js',
+  entry: './src/app.js',
   output: {
     path: __dirname + '/static/js',
     filename: 'app.min.js'
@@ -12,8 +12,8 @@ module.exports = {
       exclude: [/elm-stuff/, /node_modules/],
       loader: 'elm-webpack'
     }]
-  },
+  }/*,
   plugins: [
     new webpack.optimize.UglifyJsPlugin({})
-  ]
+  ]*/
 };

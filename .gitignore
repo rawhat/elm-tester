@@ -1,5 +1,5 @@
 node_modules/*
 elm-stuff/*
 static/js/*.min.js
-static/js/bundle.js
+src/bundle.js
 server.comp*
